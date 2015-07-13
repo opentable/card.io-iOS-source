@@ -7,6 +7,8 @@
 // is either set by the developer or initialized on first use.
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 #import "CardIODetectionMode.h"
 
 @class CardIOAnalytics;

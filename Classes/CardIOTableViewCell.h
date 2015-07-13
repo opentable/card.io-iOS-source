@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 // This should really be a category on UITableViewCell, but
 // categories don't play nicely with static libraries (requires

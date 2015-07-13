@@ -394,7 +394,7 @@
 #pragma mark - CardIOPaymentViewControllerDelegate methods
 
 - (void)userDidCancelPaymentViewController:(CardIOPaymentViewController *)paymentViewController {
-  CardIOLog(@"Received userDidCancelPaymentViewController:");
+//  CardIOLog(@"Received userDidCancelPaymentViewController:");
   [self setOutcomeText:@"Cancelled" image:nil];
   [paymentViewController dismissViewControllerAnimated:YES completion:nil];
 }
