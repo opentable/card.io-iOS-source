@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0025E9271B5424F400F2EEA2 /* core.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E91A1B5424F400F2EEA2 /* core.hpp */; };
+		0025E9281B5424F400F2EEA2 /* core_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0025E91B1B5424F400F2EEA2 /* core_c.h */; };
+		0025E9291B5424F400F2EEA2 /* eigen.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E91C1B5424F400F2EEA2 /* eigen.hpp */; };
+		0025E92A1B5424F400F2EEA2 /* internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E91D1B5424F400F2EEA2 /* internal.hpp */; };
+		0025E92B1B5424F400F2EEA2 /* mat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E91E1B5424F400F2EEA2 /* mat.hpp */; };
+		0025E92C1B5424F400F2EEA2 /* operations.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E91F1B5424F400F2EEA2 /* operations.hpp */; };
+		0025E92D1B5424F400F2EEA2 /* types_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0025E9201B5424F400F2EEA2 /* types_c.h */; };
+		0025E92E1B5424F400F2EEA2 /* version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E9211B5424F400F2EEA2 /* version.hpp */; };
+		0025E92F1B5424F400F2EEA2 /* wimage.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E9221B5424F400F2EEA2 /* wimage.hpp */; };
+		0025E9301B5424F400F2EEA2 /* imgproc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0025E9241B5424F400F2EEA2 /* imgproc.hpp */; };
+		0025E9311B5424F400F2EEA2 /* imgproc_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0025E9251B5424F400F2EEA2 /* imgproc_c.h */; };
+		0025E9321B5424F400F2EEA2 /* types_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 0025E9261B5424F400F2EEA2 /* types_c.h */; };
 		3E0133E1198AD433009E579A /* CardIO-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3E0133E0198AD433009E579A /* CardIO-Prefix.pch */; };
 		3E0133E4198AD6C5009E579A /* AdHocEntitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E0133E3198AD6C5009E579A /* AdHocEntitlements.plist */; };
 		3E0133E7198AD75C009E579A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0133E6198AD75C009E579A /* main.m */; };
@@ -149,6 +161,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0025E91A1B5424F400F2EEA2 /* core.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = core.hpp; sourceTree = "<group>"; };
+		0025E91B1B5424F400F2EEA2 /* core_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core_c.h; sourceTree = "<group>"; };
+		0025E91C1B5424F400F2EEA2 /* eigen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = eigen.hpp; sourceTree = "<group>"; };
+		0025E91D1B5424F400F2EEA2 /* internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = internal.hpp; sourceTree = "<group>"; };
+		0025E91E1B5424F400F2EEA2 /* mat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mat.hpp; sourceTree = "<group>"; };
+		0025E91F1B5424F400F2EEA2 /* operations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = operations.hpp; sourceTree = "<group>"; };
+		0025E9201B5424F400F2EEA2 /* types_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types_c.h; sourceTree = "<group>"; };
+		0025E9211B5424F400F2EEA2 /* version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = version.hpp; sourceTree = "<group>"; };
+		0025E9221B5424F400F2EEA2 /* wimage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wimage.hpp; sourceTree = "<group>"; };
+		0025E9241B5424F400F2EEA2 /* imgproc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imgproc.hpp; sourceTree = "<group>"; };
+		0025E9251B5424F400F2EEA2 /* imgproc_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgproc_c.h; sourceTree = "<group>"; };
+		0025E9261B5424F400F2EEA2 /* types_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types_c.h; sourceTree = "<group>"; };
 		0305F10C12673CA9002327F4 /* CardIOShutterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOShutterView.h; sourceTree = "<group>"; };
 		0305F10D12673CA9002327F4 /* CardIOShutterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardIOShutterView.m; sourceTree = "<group>"; };
 		030735ED1341615D00663C26 /* CardIOSectionBasedTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOSectionBasedTableViewDelegate.h; sourceTree = "<group>"; };
@@ -664,6 +688,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0025E9181B5424F400F2EEA2 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				0025E9191B5424F400F2EEA2 /* core */,
+				0025E9231B5424F400F2EEA2 /* imgproc */,
+			);
+			name = opencv2;
+			path = opencv_device/include/opencv2;
+			sourceTree = "<group>";
+		};
+		0025E9191B5424F400F2EEA2 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0025E91A1B5424F400F2EEA2 /* core.hpp */,
+				0025E91B1B5424F400F2EEA2 /* core_c.h */,
+				0025E91C1B5424F400F2EEA2 /* eigen.hpp */,
+				0025E91D1B5424F400F2EEA2 /* internal.hpp */,
+				0025E91E1B5424F400F2EEA2 /* mat.hpp */,
+				0025E91F1B5424F400F2EEA2 /* operations.hpp */,
+				0025E9201B5424F400F2EEA2 /* types_c.h */,
+				0025E9211B5424F400F2EEA2 /* version.hpp */,
+				0025E9221B5424F400F2EEA2 /* wimage.hpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		0025E9231B5424F400F2EEA2 /* imgproc */ = {
+			isa = PBXGroup;
+			children = (
+				0025E9241B5424F400F2EEA2 /* imgproc.hpp */,
+				0025E9251B5424F400F2EEA2 /* imgproc_c.h */,
+				0025E9261B5424F400F2EEA2 /* types_c.h */,
+			);
+			path = imgproc;
+			sourceTree = "<group>";
+		};
 		0305C57A1345251700A315B7 /* Demo app */ = {
 			isa = PBXGroup;
 			children = (
@@ -1532,6 +1592,7 @@
 			isa = PBXGroup;
 			children = (
 				030735D6134148FE00663C26 /* Public API */,
+				0025E9181B5424F400F2EEA2 /* opencv2 */,
 				0305C57D1345258200A315B7 /* Core */,
 				080E96DDFE201D6D7F000001 /* Scan */,
 				0305C57A1345251700A315B7 /* Demo app */,
@@ -1667,13 +1728,18 @@
 			files = (
 				3E9F4C1D181F03F300F33B48 /* geometry.h in Headers */,
 				3E9F4C1E181F03F300F33B48 /* CardIOMultipleFieldTableViewCell.h in Headers */,
+				0025E9301B5424F400F2EEA2 /* imgproc.hpp in Headers */,
+				0025E9291B5424F400F2EEA2 /* eigen.hpp in Headers */,
 				3E9F4C1F181F03F300F33B48 /* CardIOCreditCardNumberFormatter.h in Headers */,
 				3E9F4C20181F03F300F33B48 /* CardIOCreditCardExpiryFormatter.h in Headers */,
+				0025E9311B5424F400F2EEA2 /* imgproc_c.h in Headers */,
+				0025E92A1B5424F400F2EEA2 /* internal.hpp in Headers */,
 				3E9F4C21181F03F300F33B48 /* CardIOExpiryTextFieldDelegate.h in Headers */,
 				3E9F4C23181F03F300F33B48 /* canny.h in Headers */,
 				3E9F4C24181F03F300F33B48 /* hough.h in Headers */,
 				3E9F4C25181F03F300F33B48 /* sobel.h in Headers */,
 				3E9F4C26181F03F300F33B48 /* stats.h in Headers */,
+				0025E9281B5424F400F2EEA2 /* core_c.h in Headers */,
 				3E9F4C27181F03F300F33B48 /* convert.h in Headers */,
 				3E9F4C28181F03F300F33B48 /* CardIOTransitionView.h in Headers */,
 				3E9F4C29181F03F300F33B48 /* CardIOPaymentViewControllerContinuation.h in Headers */,
@@ -1686,9 +1752,16 @@
 				3ECDD2881885FAA000361A0F /* NSObject+CardioCategoryTest.h in Headers */,
 				3E9F4C34181F03F300F33B48 /* CardIOGPUTransformFilter.h in Headers */,
 				3E9F4C35181F03F300F33B48 /* mz_ios.h in Headers */,
+				0025E92D1B5424F400F2EEA2 /* types_c.h in Headers */,
+				0025E92C1B5424F400F2EEA2 /* operations.hpp in Headers */,
+				0025E92B1B5424F400F2EEA2 /* mat.hpp in Headers */,
 				3E9F4C38181F03F300F33B48 /* CardIOBundle.h in Headers */,
 				3E9F4C39181F03F300F33B48 /* CardIOContext.h in Headers */,
+				0025E9271B5424F400F2EEA2 /* core.hpp in Headers */,
+				0025E9321B5424F400F2EEA2 /* types_c.h in Headers */,
 				3E9F4C3A181F03F300F33B48 /* CardIOAnimation.h in Headers */,
+				0025E92E1B5424F400F2EEA2 /* version.hpp in Headers */,
+				0025E92F1B5424F400F2EEA2 /* wimage.hpp in Headers */,
 				3E0133E1198AD433009E579A /* CardIO-Prefix.pch in Headers */,
 				3E9F4C3B181F03F300F33B48 /* CardIOGPUGaussianBlurFilter.h in Headers */,
 				3E9F4C3C181F03F300F33B48 /* CardIOView.h in Headers */,
@@ -2095,8 +2168,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRELINK_FLAGS = "-objc_abi_version 2";
-				PRELINK_LIBS = "$(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -2155,10 +2226,7 @@
 					"-mfloat-abi=softfp",
 					"-mfpu=neon",
 				);
-				OTHER_LDFLAGS = (
-					"$(SRCROOT)/opencv_device/lib/libopencv_core.a",
-					"$(SRCROOT)/opencv_device/lib/libopencv_imgproc.a",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = CardIO;
 				SKIP_INSTALL = YES;
 			};
@@ -2204,7 +2272,6 @@
 					"-mfpu=neon",
 				);
 				OTHER_LDFLAGS = "";
-				PRELINK_LIBS = "$(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
 				PRODUCT_NAME = CardIO;
 				SKIP_INSTALL = YES;
 			};
@@ -2250,7 +2317,6 @@
 					"-mfpu=neon",
 				);
 				OTHER_LDFLAGS = "";
-				PRELINK_LIBS = "$(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
 				PRODUCT_NAME = CardIO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SKIP_INSTALL = YES;
@@ -2430,7 +2496,6 @@
 					"$(SRCROOT)/opencv_device/lib/libopencv_imgproc.a",
 				);
 				OTHER_LIBTOOLFLAGS = "$(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
-				PRELINK_FLAGS = "";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -2467,8 +2532,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRELINK_FLAGS = "-objc_abi_version 2";
-				PRELINK_LIBS = "$(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 			};
